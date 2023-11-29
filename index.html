@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calc-wrapper">
+        <div id="calc-ui">
+            <div id="calc-screen">
+            </div>
+                <div id="calc-controls">
+                    <div id="controls-row">
+                        <button class="clear">AC</button>
+                        <button class="backspace">⌫</button>
+                    </div>
+                    <div id="controls-row">
+                        <button data-key="7" class="controls">7</button>
+                        <button data-key="8" class="controls">8</button>
+                        <button data-key="9" class="controls">9</button>
+                        <button data-key="+" class="operation">+</button>
+                    </div>
+                    <div id="controls-row">
+                        <button data-key="4" class="controls">4</button>
+                        <button data-key="5" class="controls">5</button>
+                        <button data-key="6" class="controls">6</button>
+                        <button data-key="-" class="operation">-</button>
+                    </div>
+                    <div id="controls-row">
+                        <button data-key="1" class="controls">1</button>
+                        <button data-key="2" class="controls">2</button>
+                        <button data-key="3" class="controls">3</button>
+                        <button data-key="*" class="operation">*</button>
+                    </div>
+                    <div id="controls-row">
+                        <button data-key="." class="controls">.</button>
+                        <button data-key="0" class="controls">0</button>
+                        <button class="evaluation">=</button>
+                        <button data-key="/" class="operation">/</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">Copyright © 2023. <a href="https://theodinproject.com">The Odin Project</a></div>
+    <script src="script.js"></script>
+</body>
+</html>
